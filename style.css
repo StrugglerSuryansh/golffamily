@@ -1,8 +1,13 @@
+@font-face {
+ font-family: lol;
+ src: url(/gilroy-bold-webfont/Gilroy-Medium.woff);
+}
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: "Montserrat";
+ font-family: lol;
  color: #fff;
 }
 
@@ -79,6 +84,7 @@ video {
  content: "EAT. DRINK. PLAY.";
  position: absolute;
  color: black;
+ font-family: "lol";
  top: -4px;
  left: -4px;
  -webkit-text-stroke: 1px #cefa57;
@@ -127,7 +133,7 @@ video {
  text-transform: uppercase;
  font-weight: 900;
  color: transparent;
- font-family: "montserrat";
+ font-family: "lol";
  margin-right: 10px;
  transition: all linear 0.5s;
  -webkit-text-stroke: 1px #cefa57;
@@ -341,9 +347,8 @@ video {
  position: absolute;
  top: -10%;
  font-weight: 900;
- font-family: "montserrat";
- color: #000;
- -webkit-text-stroke: 2px #fff;
+ font-family: "lol";
+ color: #f3efef;
 }
 #footer {
  height: 40vh;
